@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "name": "John",
+            "lastname": "Smith",
+            "email": "jonh_smith@gmail.com"
+        },
+        {
+            "name": "Luis",
+            "lastname": "Sanchez",
+            "email": "luisSanchez@hotmail.com"
+        },
+        {
+            "name": "Maria",
+            "lastname": "Ramos",
+            "email": "maria_ramos213@outlook.es"
+        },
+        {
+            "name": "Fernando",
+            "lastname": "Flores",
+            "email": "flores_fernando@yahoo.com"
+        }
+    ]
+}
