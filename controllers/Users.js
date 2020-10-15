@@ -5,18 +5,12 @@ async function get(req, res, next) {
         const userId = req.params.userId;
 
         var result;
-        if (userId) {
-            result = await users.getUser(userId);
-            if (result === null) {
-                res.status(404).end("No user found");
-            }
-            res.status(200).json(result);
-        }
-        else {
-            result = await users.getUsers();
-            res.status(200).json(result);
-        }
+        // Checa los parametros para decidir que funcion llamar en '../database/Users.js'
 
+
+        // Glosario:
+        // - res.status(404).end("No user found");
+        // - res.status(200).json(result);
     }
     catch (err) {
         next(err);

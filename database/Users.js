@@ -1,15 +1,12 @@
 const db = require('../database.json');
 
+// Regresa todos los usuarios de la base de datos
 async function getUsers() {
-    return db.users;
-}
 
+}
+// Regresa un usuario de la base de datos que coincida con 'email' o regresa null
 async function getUser(email) {
-    for (let i = 0; i < db.users.length; i++) {
-        if (db.users[i].email === email)
-            return db.users[i];
-    }
-    return null;
+
 }
 
 module.exports.getUsers = getUsers;
